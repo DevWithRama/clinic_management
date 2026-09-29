@@ -2,7 +2,7 @@
 
 ## Overview
 
-A console-based **Small Clinic Management System** built in Python. The application manages patient records, treatments, and role-based access for Receptionist, Doctor, and Patient users. All data is stored persistently in a local JSON file (`patients.json`).
+This is a terminal based **Small Clinic Management System** built in Python. The application manages patient records, treatments, and role-based access for Receptionist, Doctor, and Patient users. All data is stored persistently in a local JSON file (`patients.json`).
 
 The system supports secure login with CAPTCHA, full CRUD operations on patient records, treatment history management by doctors, and self-service views for patients.
 
@@ -11,9 +11,9 @@ The system supports secure login with CAPTCHA, full CRUD operations on patient r
 ### Receptionist Module
 - Secure login (username + password + CAPTCHA)
 - Add new patient (auto-generates registration timestamp; password defaults to mobile number)
-- Update patient details (name, age, gender, mobile, address)
-- View all patients with treatment history
-- Search patient by ID
+- Update patient details.
+- View all patients with treatment history.
+- Search patient by ID.
 - Delete patient (with confirmation)
 
 ### Doctor Module

@@ -20,15 +20,6 @@ There is a need for a simple, lightweight, and secure digital system that allows
 - Persistent storage of all data in a local JSON file
 - Menu-driven user interface
 
-**Out of Scope:**
-- Graphical User Interface (GUI)
-- Multi-user concurrent access / networking
-- Appointment scheduling
-- Billing / payment module
-- Integration with external hospital systems or databases 
-- Mobile application or web deployment
-- Advanced analytics or reporting dashboards
-
 # Target Users
 
 1. **Receptionist** – Registers new patients, updates demographic details, searches and manages the patient database.
