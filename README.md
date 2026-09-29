@@ -59,7 +59,7 @@ Clinic-Management-System/
 ### Installation
 1. Clone the repository:
    ```bash
-   git clone <your-repository-url>
+   git clone <https://github.com/DevWithRama/clinic_management.git>
    cd Clinic-Management-System
    ```
 
@@ -74,13 +74,13 @@ or
 python3 Clinic.py
 ```
 
-### Default Credentials
+### Credentials
 
 | Role          | Username       | Password          |
 |---------------|----------------|-------------------|
 | Receptionist  | RECEPTIONIST   | receptionist123   |
 | Doctor        | DOCTOR         | doctor123         |
-| Patient       | (Patient ID)   | (mobile number set at registration) |
+| Patient       | (Patient ID)   | (mobile number of patient)   |
 
 > **Note:** CAPTCHA is generated dynamically on every login attempt and must be entered correctly.
 
@@ -88,7 +88,7 @@ python3 Clinic.py
 
 1. **Receptionist Login**
    - Choose option `1`
-   - Enter username `RECEPTIONIST`, password `receptionist123`, and the displayed CAPTCHA
+   - Enter username `RECEPTIONIST`, password `receptionist123`, and CAPTCHA
    - Test: Add Patient → View All Patients → Search → Update → Delete
 
 2. **Doctor Login**
